@@ -27,7 +27,7 @@ namespace TestUserCRUD
 
                 try
                 {
-                    // Initializing the database
+                    // Initializing the database.
                     Users.Initialize(services);
                 }
                 catch (Exception ex)
