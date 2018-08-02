@@ -1,0 +1,19 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>EmailId</th>
+      <th>MobileNo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let testUser of testUsers">
+      <td>{{testUser.name}}</td>
+      <td>{{testUser.address}}</td>
+      <td>{{testUser.emailId}}</td>
+      <td>{{testUser.mobileNo}}</td>
+      
+    </tr>
+  </tbody>
+</table>
